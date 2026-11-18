@@ -1,0 +1,6 @@
+{
+  "name":"instance-dag","private":true,"version":"0.1.0","type":"module",
+  "scripts":{"dev":"vite --host 0.0.0.0","build":"tsc --noEmit && vite build","typecheck":"tsc --noEmit","test":"tsc -p tsconfig.test.json && node --test tests/*.test.mjs","e2e":"playwright test"},
+  "dependencies":{"@your-scope/graphkit":"file:vendor/your-scope-graphkit-0.1.0.tgz","react":"^19.2.0","react-dom":"^19.2.0"},
+  "devDependencies":{"@playwright/test":"^1.58.2","@types/react":"^19","@types/react-dom":"^19","typescript":"^5.9.3","vite":"^7.3.1"}
+}

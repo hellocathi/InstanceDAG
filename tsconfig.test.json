@@ -1,0 +1,1 @@
+{"extends":"./tsconfig.json","compilerOptions":{"noEmit":false,"outDir":".test-dist","rootDir":"src"},"include":["src/api.ts","src/model.ts","src/layout-protocol.ts"]}
